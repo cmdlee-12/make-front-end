@@ -38,13 +38,18 @@
 }
 #section-2 h2 {
   color: #c39e9e;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0px;
+  line-height: 52px;
+}
+#section-2 p {
+  font-size: 20px;
 }
 #section-2 .read-more-btn {
   background: transparent;
   border: 0;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #c39e9e;
+  padding-bottom: 5px !important;
   color: #c39e9e;
   text-align: left;
   padding: 0px;
@@ -55,6 +60,7 @@
 #section-2 .read-more-btn:hover {
   color: #2d2d2b;
   border-bottom: 1px solid #2d2d2b;
+  transition: 0.3s ease-in;
 }
 #section-2 .read-more-btn i.fas.fa-arrow-right {
   margin-left: 10px;
@@ -66,17 +72,18 @@
   padding-right: 0;
 }
 #section-2 .pink-background {
-  background: #C39E9E;
-  height: 60%;
+  background: rgb(195, 158, 158);
+  height: 50%;
   position: absolute;
   width: 50%;
   z-index: 0;
-  right: 0;
-  bottom: 25px;
+  right: 0px;
+  bottom: 30px;
 }
 #section-2 .container-full{
   position: relative;
   overflow: hidden;
+  padding: 50px 0px 50px 80px;
 }
 #section-3 video{
   width: 100%;
@@ -86,73 +93,10 @@
 }
 #section-3 .video-button-wrapper {
   position: absolute;
-  right: 55px;
+  right: 10px;
   z-index: 2;
   text-align: center;
-  top: 30px;
-}
-.first-text {
-  position: absolute;
-  width: auto;
-  transform: rotate(-45deg);
-  right: 112px;
-}
-.second-text {
-  position: absolute;
-  width: auto;
-  transform: rotate(-226deg);
-  right: -52px;
-  bottom: 0;
-}
-.video-button-wrapper span {
-  color: #C39E9E;
-  font-size: 16px;
-  font-family: 'Nunito';
-  height: 125px;
-  position: absolute;
-  width: 0px;
-  left: 0;
-  top: 0;
-  transform-origin: bottom center;
-}
-.char1 {
-  transform: rotate(6deg);
-}
-.char2 {
-  transform: rotate(12deg);
-}
-.char3 {
-  transform: rotate(18deg);
-}
-.char4 {
-  transform: rotate(24deg);
-}
-.char5 {
-  transform: rotate(30deg);
-}
-.char6 {
-  transform: rotate(36deg);
-}
-.char7 {
-  transform: rotate(42deg);
-}
-.char8 {
-  transform: rotate(48deg);
-}
-.char9 {
-  transform: rotate(54deg);
-}
-.char10 {
-  transform: rotate(60deg);
-}
-.char11 {
-  transform: rotate(66deg);
-}
-.char12 {
-  transform: rotate(72deg);
-}
-.char13 {
-  transform: rotate(78deg);
+  top: -3px;
 }
 #section-3 .play-btn {
   background: transparent;
@@ -161,9 +105,10 @@
 }
 #section-3 .play-btn i{
   color: #C39E9E;
+  font-size: 50px;
 }
 #section-3 .play-btn:hover i{
-  color: #2d2d2b;
+  color: #f6f0f1;
 }
 #section-3 .col-two {
   justify-content: center;
@@ -200,4 +145,30 @@ footer{
 }
 .glider-slide img {
   width: 100%;
+}
+#section-3 .container-full  {
+  padding: 50px 80px;
+}
+#section-3 .play-btn:before {
+  content: '';
+  position: absolute;
+  background: url(../img/press-to-play.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 75px;
+  top: -16px;
+  left: -18px;
+}
+#section-3 .play-btn:after {
+  content: '';
+  position: absolute;
+  background: url(../img/press-to-play.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 75px;
+  bottom: -11px;
+  left: -18px;
+  transform: rotate(176deg);
 }

@@ -4,7 +4,6 @@ $(document).ready(function(){
         video.paused ? video.play() : video.pause();
     })
 
-    $(".video-button-wrapper p").lettering();
     window.addEventListener('load',function(){
         document.querySelector('.glider').addEventListener('glider-slide-visible', function(event){
             var glider = Glider(this);
@@ -25,20 +24,27 @@ $(document).ready(function(){
             slidesToScroll: 1,
             itemWidth: 150,
             draggable: true,
-            scrollLock: false,
-            dots: '#dots',
             rewind: true,
             responsive: [
                 {
-                    
-                    breakpoint: 775,
+                    breakpoint: 319,
                     settings: {
-                      slidesToShow: 2,
-                      slidesToScroll: 2,
-                      itemWidth: 50,
+                        slidesToShow: 'auto',
+                        slidesToScroll: 1,
+                        itemWidth: 30,
+                        duration: 0.25
+                    }
+                },
+                {  
+                    breakpoint: 767,
+                    settings: {
+                      slidesToShow: 'auto',
+                      slidesToScroll: 1,
+                      itemWidth: 100,
                       duration: 0.25
                     }
-                },{
+                },
+                {  
                     breakpoint: 1024,
                     settings: {
                       slidesToShow: 3,
@@ -46,15 +52,16 @@ $(document).ready(function(){
                       itemWidth: 150,
                       duration: 0.25
                     }
-                },{
-                    breakpoint: 1600,
+                },
+                {  
+                    breakpoint: 1440,
                     settings: {
-                      slidesToShow: 4,
+                      slidesToShow: 3,
                       slidesToScroll: 1,
-                      itemWidth: 150,
+                      itemWidth: 350,
                       duration: 0.25
                     }
-                }
+                },
             ]
         });
       });
