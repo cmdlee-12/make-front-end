@@ -1,86 +1,70 @@
 #section-1 {
-    padding-top: 80px;
-    background: #fff;
+  padding-top: 80px;
+  background: #fff;
 }
-
 #section-1 .row:nth-child(2){
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
-
 #section-1 .col-two:nth-child(2) {
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0px;
 }
-
 #section-1 .col-two {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 #section-1 h1 {
-    color: #c39e9e;
-    font-size: 70px;
-    margin: 0px;
+  color: #c39e9e;
+  font-size: 70px;
+  margin: 0px;
 }
-
 #section-1 p {
-    font-size: 25px;
-    margin-top: 0px;
+  font-size: 25px;
+  margin-top: 0px;
 }
-
 #section-2 {
-    background: #f6f0f1;
+  background: #f6f0f1;
 }
-
 #section-2 .row {
-    padding-right: 0px;
+  padding-right: 0px;
 }
-
 #section-2 .column {
-    justify-content: center;
-    padding: 50px;
+  justify-content: center;
+  padding: 50px;
 }
-
 #section-2 .col-two {
-    justify-content: center;
+  justify-content: center;
 }
-
 #section-2 h2 {
-    color: #c39e9e;
-    font-size: 40px;
-    margin: 0px;
+  color: #c39e9e;
+  font-size: 40px;
+  margin: 0px;
 }
-
 #section-2 .read-more-btn {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid transparent;
-    color: #c39e9e;
-    text-align: left;
-    padding: 0px;
-    text-transform: uppercase;
-    display: inline-flex;
-    width: fit-content;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  color: #c39e9e;
+  text-align: left;
+  padding: 0px;
+  text-transform: uppercase;
+  display: inline-flex;
+  width: fit-content;
 }
-
 #section-2 .read-more-btn:hover {
-    color: #2d2d2b;
-    border-bottom: 1px solid #2d2d2b;
+  color: #2d2d2b;
+  border-bottom: 1px solid #2d2d2b;
 }
-
 #section-2 .read-more-btn i.fas.fa-arrow-right {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-
 #section-2 .read-more-btn:focus {
-    outline: none;
+  outline: none;
 }
-
 #section-2 .col-half-bigger{
-    padding-right: 0;
+  padding-right: 0;
 }
-
 #section-2 .pink-background {
   background: #C39E9E;
   height: 60%;
@@ -90,162 +74,130 @@
   right: 0;
   bottom: 25px;
 }
-
 #section-2 .container-full{
   position: relative;
   overflow: hidden;
 }
-
 #section-3 video{
-    width: 100%;
+  width: 100%;
 }
-
 #section-3 .col-half-bigger{
-    position: relative;
+  position: relative;
 }
-
 #section-3 .video-button-wrapper {
-    position: absolute;
-    right: 55px;
-    z-index: 2;
-    text-align: center;
-    top: 30px;
+  position: absolute;
+  right: 55px;
+  z-index: 2;
+  text-align: center;
+  top: 30px;
 }
-
 .first-text {
-    position: absolute;
-    width: auto;
-    transform: rotate(-45deg);
-    right: 112px;
-  }
-
-  .second-text {
-    position: absolute;
-    width: auto;
-    transform: rotate(-226deg);
-    right: -52px;
-    bottom: 0;
+  position: absolute;
+  width: auto;
+  transform: rotate(-45deg);
+  right: 112px;
 }
-  
-  .video-button-wrapper span {
-    color: #C39E9E;
-    font-size: 16px;
-    font-family: 'Nunito';
-    height: 125px;
-    position: absolute;
-    width: 0px;
-    left: 0;
-    top: 0;
-    transform-origin: bottom center;
+.second-text {
+  position: absolute;
+  width: auto;
+  transform: rotate(-226deg);
+  right: -52px;
+  bottom: 0;
 }
-  
-  .char1 {
-    transform: rotate(6deg);
-  }
-  
-  .char2 {
-    transform: rotate(12deg);
-  }
-  
-  .char3 {
-    transform: rotate(18deg);
-  }
-  
-  .char4 {
-    transform: rotate(24deg);
-  }
-  
-  .char5 {
-    transform: rotate(30deg);
-  }
-  
-  .char6 {
-    transform: rotate(36deg);
-  }
-  
-  .char7 {
-    transform: rotate(42deg);
-  }
-  
-  .char8 {
-    transform: rotate(48deg);
-  }
-  
-  .char9 {
-    transform: rotate(54deg);
-  }
-  
-  .char10 {
-    transform: rotate(60deg);
-  }
-  
-  .char11 {
-    transform: rotate(66deg);
-  }
-  
-  .char12 {
-    transform: rotate(72deg);
-  }
-  
-  .char13 {
-    transform: rotate(78deg);
-  }
-  
-    
+.video-button-wrapper span {
+  color: #C39E9E;
+  font-size: 16px;
+  font-family: 'Nunito';
+  height: 125px;
+  position: absolute;
+  width: 0px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+.char1 {
+  transform: rotate(6deg);
+}
+.char2 {
+  transform: rotate(12deg);
+}
+.char3 {
+  transform: rotate(18deg);
+}
+.char4 {
+  transform: rotate(24deg);
+}
+.char5 {
+  transform: rotate(30deg);
+}
+.char6 {
+  transform: rotate(36deg);
+}
+.char7 {
+  transform: rotate(42deg);
+}
+.char8 {
+  transform: rotate(48deg);
+}
+.char9 {
+  transform: rotate(54deg);
+}
+.char10 {
+  transform: rotate(60deg);
+}
+.char11 {
+  transform: rotate(66deg);
+}
+.char12 {
+  transform: rotate(72deg);
+}
+.char13 {
+  transform: rotate(78deg);
+}
 #section-3 .play-btn {
-    background: transparent;
-    border: 0;
-    font-size: 50px;
+  background: transparent;
+  border: 0;
+  font-size: 50px;
 }
-
 #section-3 .play-btn i{
-    color: #C39E9E;
+  color: #C39E9E;
 }
-
 #section-3 .play-btn:hover i{
-    color: #2d2d2b;
+  color: #2d2d2b;
 }
-
 #section-3 .col-two {
-    justify-content: center;
+  justify-content: center;
 }
-
 #section-3 .title span {
-    background: #f6f0f1;
-    padding: 2px;
-    font-weight: 400;
+  background: #f6f0f1;
+  padding: 2px;
+  font-weight: 400;
 }
-
 #section-3 .title {
-    font-weight: 800;
-    margin: 15px 0px;
-    line-height: 40px;
-    font-size: 30px;
+  font-weight: 800;
+  margin: 15px 0px;
+  line-height: 40px;
+  font-size: 30px;
 }
-
 #section-3 .sub-text {
-    font-size: 18px;
-    margin: 0px;
+  font-size: 18px;
+  margin: 0px;
 }
-
 footer{
-    background-color: #c39e9e;
-    padding: 5px;
+  background-color: #c39e9e;
+  padding: 5px;
 }
-
 .glider-contain {
-    width: 90%;
-    max-width: 997px;
-    margin-right: 0;
-    overflow: hidden;
-    z-index: 1;
+  width: 90%;
+  max-width: 997px;
+  margin-right: 0;
+  overflow: hidden;
+  z-index: 1;
 }
-
 .glider-slide {
-    min-height: 150px;
-    margin-left: 10px;
+  min-height: 150px;
+  margin-left: 20px;
 }
-
 .glider-slide img {
-    width: 100%;
+  width: 100%;
 }
